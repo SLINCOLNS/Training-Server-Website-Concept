@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222127;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #222127;
+    color: #222127;
+}
+
+.logo {
+    width: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 64px;
+    height: 64px;
+}
+
+.logo a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.header {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #222127;
+}
+
+.header a {
+    color: white;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    margin: 0 35px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.header a:hover {
+    color: #ff6600;
+}
+
+.header .button {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #222127;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header .button:hover {
+    background-color: #ff6600;
+    color: white;
+    box-shadow: 0 0 10px 4px rgba(255, 102, 0, 0.6);
+}
+
+.header .button:hover i {
+    color: white;
+}
+
+.header .button i {
+    margin-right: 15px;
+    vertical-align: middle;
+    transition: color 0.3s ease;
+}
+
+header .header nav a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    opacity: 0.7;
+}
+
+header nav i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header nav a:hover {
+    color: #ff6600;
+}
+
+.main {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+.main img {
+    left: 50px;
+    width: 1050px;
+    pointer-events: none;
+}
+
+.main .content {
+    color: white;
+    max-width: 50%;
+    align-items: right;
+    top: 500px;
+}
+
+.main .content h1 {
+    font-family: "Jersey 15", sans-serif;
+    letter-spacing: 3px;
+    opacity: 0.5;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main .content p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.main .content .button {
+    background-color: #ffffff;
+    border: none;
+    padding: 20px 45px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-for-mobile {
+    display: none;
+}
+
+.main .content .button a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main .content .button i {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.main .content .button:hover {
+    background-color: #ff6600;
+    color: white;
+    box-shadow: 0 0 10px 4px rgba(255, 102, 0, 0.6);
+}
+
+.main .content .button:hover a {
+    color: white;
+}
+
+.main .content .button:hover i {
+    color: white;
+}
+
+.main .image {
+    max-width: 50%;
+}
+
+.main .image img {
+    max-width: 100%;
+    height: auto;
+}
